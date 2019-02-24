@@ -17,6 +17,8 @@ Some files are critical and can contain confidential information like your keys 
 * https://matplotlib.org/users/legend_guide.html
 ## Pandas
 * https://pandas.pydata.org/
+## dash
+* https://dash.plot.ly/installation
 
 ## VSCode
 * I do run jupyter code cells directly from VSCode python editor which is a great experience, see more on https://code.visualstudio.com/docs/python/jupyter-support
@@ -24,8 +26,8 @@ Some files are critical and can contain confidential information like your keys 
 # Finance Frameworks
 
 ## Alpha Vantage (./alpha/)
-* Alpha vantage is a very simple url query based API
-* API Key is very easy to obtain immidiatley
+* (+) Alpha vantage is a very simple url query based API
+* (+) API Key is very easy to obtain immidiatley
 
 Official documentation : https://www.alphavantage.co/documentation/
 
