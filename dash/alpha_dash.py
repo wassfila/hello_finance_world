@@ -16,11 +16,9 @@ def alpha_url(symbol,interval):
     url = base_query + function + api_key + symbol_query + interval_query + datatype
     return url
 
-microsoft = pd.read_csv(alpha_url("MSFT", "30min"))
-#microsoft = pd.read_csv(alpha_url("MSFT","30min"),
-#                    parse_dates=['timestamp'])
-#microsoft.set_index('timestamp',inplace=True)
-
+url = alpha_url("MSFT", "30min")
+print(url)
+microsoft = pd.read_csv(url)
 
 app.set_data(microsoft,"Microsoft")
 app.run()

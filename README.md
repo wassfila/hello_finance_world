@@ -11,8 +11,9 @@ Some files are critical and can contain confidential information like your keys 
 <img src="media/mindmap.svg" width="800">
 
 # Basics Frameworks
-* Matplotlib and Pandas are basics for data analysis that go beyond finance and are quite common in every field (robotics, machine learning,...).
 * Python is the primary language, although it is not excluded that accelerated computing or front end display switches to another language.
+* Matplotlib and Pandas are basics for data analysis that go beyond finance and are quite common in every field (robotics, machine learning,...).
+* Dash, new commer with revolutionary model, stepping over giant frameworks (plotly, d3.js, React, Flask) allows python complete webapps generation.
 ## Matplotlib
 * https://matplotlib.org/users/legend_guide.html
 ## Pandas
@@ -61,6 +62,12 @@ Although Quantopian is a very neat platform, it won't have the focus as it's con
 ## Barchart
 requires request and email exchange https://www.barchart.com/ondemand/api
 
+# Finance Analysis Examples
+3d "plotly dash" NY Times Yield curve
+* https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html
+
+"plotly dash" NY Times Recession - Jobs
+* https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped-the-economy-in-255-charts.html
 
 # Useful links to get started with Finance
 * https://www.investopedia.com/university/systemcoding/

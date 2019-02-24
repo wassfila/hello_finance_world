@@ -27,7 +27,7 @@ def set_data(data_frame,data_name):
                     'y': data_frame.close,
                     'line': {
                         'width': 3,
-                        'shape': 'spline'
+                        'shape': 'linear'
                     }
                 }],
                 'layout': {
